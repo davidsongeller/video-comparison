@@ -28,3 +28,27 @@ This Python program allows you to analyze GIFs and videos to identify duplicates
 1. Clone the repository or download the source code.
 
 2. Install the required dependencies using the following command:
+
+`pip install opencv-python ffmpeg-python pillow imagehash`
+
+4. Follow the prompts to provide the paths to the input files for analysis.
+
+`python main.py`
+
+## Customization
+
+- Adjust the threshold values and similarity metrics in the code to suit your specific needs and desired level of sensitivity.
+- Modify or extend the duplicate detection methods and verification steps based on your requirements.
+
+## Limitations
+
+- The program currently supports GIFs, videos, and frame-based duplicate analysis. Other file formats or specialized analysis techniques are not included in this version.
+
+## Contributing
+
+Contributions are welcome! If you encounter any issues, have suggestions, or would like to add new features, please feel free to submit a pull request or open an issue.
+
+## License
+
+GPL-3.0 License
+
